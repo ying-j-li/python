@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ying_j_li_python_1715187274382-push-trigger-input-set
+  identifier: Build_ying_j_li_python_1715187274382pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ying_j_li_python_1715187274382
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
