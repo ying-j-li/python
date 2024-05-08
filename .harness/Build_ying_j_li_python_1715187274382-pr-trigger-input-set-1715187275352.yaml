@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ying_j_li_python_1715187274382-pr-trigger-input-set
+  identifier: Build_ying_j_li_python_1715187274382prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ying_j_li_python_1715187274382
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
